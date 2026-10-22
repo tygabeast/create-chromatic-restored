@@ -1,0 +1,34 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "create_chromatic_restored"
+version = "1.0.2"
+displayName = "Create: Chromatic Restored"
+authors = "Tygabeast"
+description = '''
+Restores Create's Chromatic Compound, Shadow Steel, Refined Radiance, Shadow Casing and Radiant Casing:
+adds their crafting recipes and puts them back in the creative tab and JEI.
+'''
+
+[[dependencies.create_chromatic_restored]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.create_chromatic_restored]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.create_chromatic_restored]]
+modId = "create"
+type = "required"
+versionRange = "[6.0.10,)"
+ordering = "AFTER"
+side = "BOTH"
